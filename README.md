@@ -12,7 +12,7 @@ I found the built-in navigation module to be kind of restrictive when differnt n
 3. Run `manage.py makemigrations && manage.py migrate`. 
 
 4. In templates you can add the navigation to your page like this:
-```html
+```HTML+Django
 {% load feincms_tags feincms_page_tags mptt_tags %}
 
 <ul>
