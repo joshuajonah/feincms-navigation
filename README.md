@@ -9,7 +9,9 @@ I found the built-in navigation module to be kind of restrictive when differnt n
 
 2. Add `url(r'^admin/feincms_navigation/', include('feincms_navigation.urls')),` to your project `urls.py`.
 
-3. In templates you can add the navigation to your page like this:
+3. Run `manage.py makemigrations && manage.py migrate`. 
+
+4. In templates you can add the navigation to your page like this:
 ```html
 {% load feincms_tags feincms_page_tags mptt_tags %}
 
